@@ -1,0 +1,113 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f0f1a;
+  color: white;
+}
+
+/* LAYOUT */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  background: #181825;
+  padding: 20px;
+  border-right: 1px solid #2a2a3d;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+/* UPLOAD */
+.upload-area {
+  display: block;
+  padding: 30px;
+  border: 2px dashed #444;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upload-area:hover {
+  background: #222;
+}
+
+/* CHAT SECTION */
+.chat-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* MESSAGES */
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* CHAT BUBBLES */
+.msg {
+  max-width: 70%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+}
+
+.msg.user {
+  background: #4cafef;
+  margin-left: auto;
+}
+
+.msg.bot {
+  background: #2a2a3d;
+}
+
+/* TIMESTAMP BUTTON */
+.msg button {
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 5px 8px;
+  background: #00c853;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+/* VIDEO */
+.video-player {
+  width: 100%;
+  max-height: 200px;
+  background: black;
+}
+
+/* INPUT */
+.input-box {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #333;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.input-box button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background: #4cafef;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
