@@ -1,0 +1,22 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Env
+.env
+
+# FAISS
+vector_store/
+
+# Temp files
+temp_*
+*.mp4
+*.mp3
+*.wav
+
+# Large binaries
+*.dll
